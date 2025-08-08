@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Font Preloading Experiments</title>
+
+        <link rel="preload" href="/assets/$dateNow/fonts/FuzzyBubbles-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/$dateNow/fonts/FuzzyBubbles-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+        <style>
+            @font-face {
+                font-family: 'FuzzyBubbles';
+                src: url('/assets/$dateNow/fonts/FuzzyBubbles-Regular.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: 'FuzzyBubbles';
+                src: url('/assets/$dateNow/fonts/FuzzyBubbles-Bold.woff2') format('woff2');
+                font-weight: 700;
+                font-style: normal;
+                font-display: swap;
+            }
+
+            body {
+                font-family: "FuzzyBubbles", sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Font Preloading Demo</h1>
+        <p>Here Some Text Goes... Here Some Text Goes...</p>
+    </body>
+</html>
