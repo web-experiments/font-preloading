@@ -6,6 +6,6 @@
 
 ### Links
 
-- http://localhost:8080
-- http://localhost:8080/with-stylesheet-blocking
-- http://localhost:8080/with-script-blocking
+- https://font-preloading-experiments.onrender.com
+- https://font-preloading-experiments.onrender.com/with-stylesheet-blocking
+- https://font-preloading-experiments.onrender.com/with-script-blocking

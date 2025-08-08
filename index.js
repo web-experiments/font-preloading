@@ -7,9 +7,9 @@ const PORT = 8080;
 
 app.use((req, res, next) => {
     if (req.url.includes('/css/') || req.url.includes('/js/')) {
-        setTimeout(next, 3000);
+        setTimeout(next, 4000);
     } else if (req.url.includes('/fonts/')) {
-        setTimeout(next, 1500);
+        setTimeout(next, 2500);
     } else {
         next();
     }
