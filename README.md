@@ -1,3 +1,11 @@
-# Font Preloading Demo
+# Font Preloading Experiments
 
-Please run `npm i` then run `node ./src/index.js` then access http://localhost:8080
+### Getting Started
+- Please run `npm i`
+- Then run `npm start`
+
+### Links
+
+- http://localhost:8080
+- http://localhost:8080/with-stylesheet-blocking
+- http://localhost:8080/with-script-blocking
